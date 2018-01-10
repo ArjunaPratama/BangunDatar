@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arjuna.bangundatar.SegitigaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung Luas Dan Keliling" />
+
+        <EditText
+            android:id="@+id/etTinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tinggi"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etAlas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Alas"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etSisia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sisi B"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etSisiaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sisi C"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etSisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Sisi A"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil:" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

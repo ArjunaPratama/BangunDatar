@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PersegiActivity"></activity>
+        <activity android:name=".PersegiActivity" />
+        <activity android:name=".JajargenjangActivity" />
+        <activity android:name=".LingkaranActivity" />
+        <activity android:name=".SegitigaActivity"></activity>
     </application>
 
 </manifest>
